@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sainikitha Ramavath - Portfolio</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <style>
+    :root {
+      --primary-color: hwb(153 2% 70%); 
+      --background-color: hwb(66 87% 5% / 0.976); 
+      --text-color: #333333; 
+      --accent-color: hsl(149, 86%, 27%); 
+    }
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+      font-family: 'Georgia', serif;
+      line-height: 1.6;
+    }
+    .header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 2rem 0;
+    }
+    .header a {
+      color: white;
+      text-decoration: none;
+    }
+    .header a:hover {
+      color: var(--accent-color);
+    }
+    h1, h2, h3 {
+      font-family: 'Times New Roman', Times, serif;
+      color: var(--primary-color);
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 2.5rem;
+      color: white;
+    }
+    h2 {
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 0.5rem;
+    }
+    h3.project-heading {
+      font-weight: bold;
+    }
+    .btn-custom {
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: var(--accent-color);
+      color: var(--text-color);
+    }
+    .footer {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 1rem 0;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      text-align: justify;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    p, .justify-text {
+      text-align: justify;
+    }
+    @media (max-width: 576px) {
+      .header h1 {
+        font-size: 1.8rem;
+      }
+      .contact-info {
+        flex-direction: column !important;
+        gap: 0.5rem !important;
+        font-size: 0.9rem;
+      }
+      ul.row-cols-2 > li,
+      ul.row-cols-md-3 > li {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .btn-custom {
+        width: 100%;
+        margin-bottom: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header text-center">
+    <div class="container">
+      <h1 class="text-center">Sainikitha Ramavath</h1>
+      <div class="d-flex justify-content-center gap-3 mt-3 flex-wrap contact-info">
+        <a href="mailto:sainikitharathod@gmail.com">sainikitharathod@gmail.com</a>
+        <span>|</span>
+        <span>9014571744</span>
+        <span>|</span>
+        <a href="https://www.linkedin.com/in/ramavath-sainikitha-355bb72ab" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span>|</span>
+        <a href="https://github.com/Sainikitharathod" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container py-5">
+    <!-- About Me -->
+    <section class="mb-5">
+      <h2 class="h3 mb-3">About Me</h2>
+      <p class="justify-text">
+        I’m Sainikitha Ramavath, a fresher with a B.Tech from Anurag College of Engineering. My passion for technology and coding began during my academic journey, where I discovered the thrill of solving complex problems through software development. With a strong foundation in programming and a knack for collaboration, I bring enthusiasm, adaptability, and effective communication to every project. I’m eager to join a dynamic team, learn continuously, and build impactful solutions with innovative teams.
+      </p>
+    </section>
+
+    <!-- Professional Summary -->
+    <section class="mb-5">
+      <h2 class="h3 mb-3">Professional Summary</h2>
+      <p class="justify-text">
+        Enthusiastic fresher proficient in Java, Spring Boot, React, and SQL. Skilled in data structures, algorithms, and object-oriented programming, with a passion for developing efficient and scalable software solutions. Ready to apply technical and collaborative skills to drive project success.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="mb-5">
+      <h2 class="h3 mb-3">Education</h2>
+      <div class="mb-4">
+        <h3 class="h5">Bachelor of Technology - Computer Science and Engineering (75%)</h3>
+        <p class="justify-text">Anurag College Of Engineering, May 2024</p>
+      </div>
+      <div class="mb-4">
+        <h3 class="h5">Intermediate (77%)</h3>
+        <p class="justify-text">Telangana State Residential Junior College, Aug 2020</p>
+      </div>
+      <div>
+        <h3 class="h5">SSC - Matriculation (80%)</h3>
+        <p class="justify-text">St Joseph's High School, Mar 2018</p>
+      </div>
+    </section>
+
+    <!-- Internship -->
+    <section class="mb-5">
+      <h2 class="h3 mb-3">Internship</h2>
+      <div>
+        <h3 class="h5">Java Full Stack Intern</h3>
+        <p class="justify-text">Kapil IT Skill Hub, April 2025 - June 2025</p>
+        <p class="mt-2 justify-text">
+          Gained practical exposure in developing full-stack web applications, focusing on building efficient and user-friendly systems to streamline learning management processes.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="mb-5">
+      <h2 class="h3 mb-3">Technical Skills</h2>
+      <ul class="row row-cols-2 row-cols-md-3 g-2 d-flex flex-wrap">
+        <li>Java</li>
+        <li>Python</li>
+        <li>Data Structures & Algorithms</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Bootstrap</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Spring Boot</li>
+        <li>SQL</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section class="mb-5">
+      <h2 class="h3 mb-3">Projects</h2>
+      <div class="mb-4">
+        <h3 class="h5 project-heading">Learning Management System</h3>
+        <p class="justify-text">April 2025 - June 2025</p>
+        <p class="mt-2 justify-text">
+          A role-based web application developed to automate and simplify course allocation, assignment management, trainer handling, and student progress tracking through dedicated dashboards for Admin, Trainer, and Student roles, ensuring efficient and organized learning processes.
+        </p>
+      </div>
+      <div class="mb-4">
+        <h3 class="h5 project-heading">Smart City Information</h3>
+        <p class="justify-text">August 2023 - November 2023</p>
+        <p class="mt-2 justify-text">
+          Developed a web-based application to centralize and display essential information about a city, aimed at helping newcomers easily access details about city services, infrastructure, and lifestyle.
+        </p>
+      </div>
+      <div>
+        <h3 class="h5 project-heading">Vehicular Cloud Forming and Task Scheduling</h3>
+        <p class="justify-text">Dec 2023 - May 2024</p>
+        <p class="mt-2 justify-text">
+          Designed and implemented a cooperative computing system using Vehicle-to-Vehicle (V2V) communication to form a Vehicular Cloud (VC) for energy-efficient task scheduling. Employed the SCOCC algorithm to optimize task distribution without relying on traditional cloud servers.
+        </p>
+      </div>
+    </section>
+
+    <!-- Soft Skills -->
+    <section class="mb-5">
+      <h2 class="h3 mb-3">Soft Skills</h2>
+      <ul class="row row-cols-2 row-cols-md-3 g-2 d-flex flex-wrap">
+        <li>Problem Solving</li>
+        <li>Communication Skills</li>
+        <li>Leadership Skills</li>
+        <li>Adaptability</li>
+        <li>Team Management</li>
+      </ul>
+    </section>
+
+    <!-- Hobbies -->
+    <section class="mb-5">
+      <h2 class="h3 mb-3">Hobbies</h2>
+      <ul>
+        <li>Reading Books</li>
+        <li>Watching Movies</li>
+        <li>Listening to Songs</li>
+      </ul>
+    </section>
+
+    <!-- Certificates -->
+    <section class="mb-5">
+      <h2 class="h3 mb-3">Certificates</h2>
+      <ul>
+        <li>Acmegrade Certification in Web Development</li>
+        <li>Kapil IT Skill Hub Certification in Java Full Stack Development</li>
+      </ul>
+    </section>
+
+    <!-- Contact Me -->
+    <section class="mb-5 text-center">
+      <h2 class="h3 mb-3">Contact Me</h2>
+      <p class="justify-text">
+        Thanks for visiting my portfolio! As a fresher, I’m excited to start my tech career and contribute to innovative projects. Contact me via email or LinkedIn to discuss opportunities!
+      </p>
+      <div class="d-flex justify-content-center gap-3 mt-3 flex-wrap">
+        <a href="mailto:sainikitharathod@gmail.com" class="btn btn-custom">Email Me</a>
+        <a href="https://www.linkedin.com/in/ramavath-sainikitha-355bb72ab" class="btn btn-custom" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/Sainikitharathod" class="btn btn-custom" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <p class="text-center">© 2025 Sainikitha Ramavath.</p>
+  </footer>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
